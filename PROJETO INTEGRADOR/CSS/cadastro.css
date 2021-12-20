@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;900&display=swap');
+/*****************************************************Inicio do Cadstro**********************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.cad{
+    color: #2b81bc;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: #8871a7;
+}
+.logo{
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    padding: 5px;
+    background: #f3f3f5;
+    margin: 5px 0;
+}
+header {
+    /*background: #f3f3f5;*/
+    padding: 1rem;
+    text-align: center;
+
+}
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+#my-form {
+    padding: 2rem;
+    background: #f3f3f5;
+}
+#my-form label {
+    display: block;
+}
+#my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#my-form input[type='password']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#my-form select {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.botao {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #8871a7;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.botao:hover {
+    background: #049C9A;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.error {
+    font-size: 0.8rem;
+    background: #fff;
+    color: red;
+}
+
+/***************************************FIM Do Cadastro****************************************************************/
