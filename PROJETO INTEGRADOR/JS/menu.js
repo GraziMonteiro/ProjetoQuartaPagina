@@ -4,7 +4,7 @@ $('.btn').click(function(){
 });
 $('.feat-btn').click(function(){
     $('nav ul .feat-show').toggleClass("show");
-    /*$('nav ul .first').toggleClass("rotate");*/
+    $('nav ul .first').toggleClass("rotate");
 });
 $('.serv-btn').click(function(){
     $('nav ul .serv-show').toggleClass("show1");
